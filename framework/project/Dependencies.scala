@@ -75,8 +75,8 @@ object Dependencies {
 
     scalaIoFileBuild,
 
-    "com.typesafe.akka" %% "akka-actor" % "2.1.0",
-    "com.typesafe.akka" %% "akka-slf4j" % "2.1.0",
+    "com.typesafe.akka" %% "akka-actor" % "2.2.0-RC2",
+    "com.typesafe.akka" %% "akka-slf4j" % "2.2.0-RC2",
 
     "org.scala-stm" % "scala-stm_2.10.0" % "0.6",
 
@@ -123,7 +123,7 @@ object Dependencies {
       exclude ("javax.transaction", "jta"))
 
   val sbtDependencies = Seq(
-    "com.typesafe" % "config" % "1.0.0",
+    "com.typesafe" % "config" % "1.0.1",
     "org.mozilla" % "rhino" % "1.7R4",
 
     ("com.google.javascript" % "closure-compiler" % "rr2079.1" notTransitive ())
@@ -161,7 +161,7 @@ object Dependencies {
 
   val iterateesDependencies = Seq(
     "org.scala-stm" % "scala-stm_2.10.0" % "0.6",
-    "com.typesafe" % "config" % "1.0.0",
+    "com.typesafe" % "config" % "1.0.1",
     specsBuild % "test")
 
   val jsonDependencies = Seq(
